@@ -6,7 +6,7 @@ homepage:            https://github.com/mrlsd/useful-haskell
 license:             MIT
 license-file:        LICENSE
 author:              Evgeny Ukhanov
-copyright:           2016 Evgeny Ukhanov 
+copyright:           2016 Evgeny Ukhanov
 category:            Web
 build-type:          Simple
 extra-source-files:  README.md
@@ -17,6 +17,9 @@ library
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
   default-language:    Haskell2010
+
+  other-modules:
+    LinkedList
 
 executable main-exe
   hs-source-dirs:      app

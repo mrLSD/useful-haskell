@@ -1,2 +1,5 @@
 module Lib
-    () where
+    ( module Import
+    ) where
+
+import LinkedList as Import

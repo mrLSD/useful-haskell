@@ -1,6 +1,6 @@
 module Main where
 
-import Lib.LinkedList
+import Lib
 
 main :: IO ()
 main = printLinkedListResult
